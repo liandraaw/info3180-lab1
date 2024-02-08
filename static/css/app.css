@@ -9,12 +9,28 @@ body {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  
 }
 
 h1{
   background-color: green;
   color:white;
-  font-family: cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:flex;
+  justify-content: center;
  
 }
 
+p{
+  text-align: center;
+  margin-left:100px;
+  margin-right:100px;
+
+}
+
+img{
+  margin: 0 auto;
+  border-radius: 500px;
+}
